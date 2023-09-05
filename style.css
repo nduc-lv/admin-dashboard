@@ -94,7 +94,9 @@ a{
     flex-grow: 1;
     border-radius: 15px;
     border: none;
-    padding: 3px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: var(--gray-color);
 }
 .tool .account{
@@ -167,6 +169,13 @@ a{
 }
 .projects{
     grid-row: span 2;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.projects .container{
+    flex-grow: 1;
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr)); 
     gap: 20px;

@@ -32,6 +32,10 @@ a{
     text-decoration: none;
 }
 /* Dashboard */
+.dashboard-stick{
+    position: sticky;
+    top: 15px;
+}
 .dashboard-section{
     grid-row: span 2;
     display: flex;
@@ -41,7 +45,6 @@ a{
     padding-top: 15px;
     background-color: var(--blue-color);
     color: white;
-
 }
 .dashboard-home{
     font-size: large;
